@@ -14,7 +14,7 @@ def index():
     return render_template('index.html') 
 
 @app.route('/home')
-def index():
+def homer():
     return render_template('home.html') 
 
     
